@@ -2,7 +2,7 @@
 <img height="150" alt="preview" src="./src/Assets/logo_white.png" />
 </div>
 
-<h1 align="center">DRAIC_WEBSITE</h1> 
+<h1 align="center">DRAIC WEBSITE</h1> 
 
 <h3 align="center">Explore the world of Robos</h3>
 
