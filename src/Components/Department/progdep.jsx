@@ -14,12 +14,7 @@ function Progdep() {
           <div className="prog-department-text-container">
             <h1 className="prog-department-title">PROGRAMMING DEPARTMENT</h1>
             <p className="prog-department-description">
-              A random paragraph generator is a tool provided by various
-              websites that provides you as many random paragraphs as you want.
-              Be it for any work purpose of yours, effortlessly. A random
-              paragraph generator is a tool provided by various websites that
-              provides you as many random paragraphs as you want. Be it for any
-              work purpose of yours, effortlessly.
+            We as a Programming team develop new programs, test and update existing ones, identify and correct those errors and work on all the technical stuff you can think of. We believe that any problem that exists, can be solved by having a clear perspective and using a logical approach to solve it. We keep this principle in our minds while working on a project. Innovation and creativity are always welcome in our workspace. No Idea is too small for us. If it can be coded, we will code it!
             </p>
           </div>
           <div className="prog-department-image-container">
@@ -35,7 +30,7 @@ function Progdep() {
 
         <div className="prog-department-header-container">
           <h1 className="prog-department-moto">
-            OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM
+            A BUNCH OF GEEKS WHO LOVE CODING..!
           </h1>
           <div className="seperator">
             <div className="depline1"></div>
@@ -56,11 +51,17 @@ function Progdep() {
 
                   <div className="card--text">
                     <p>{card.branch}</p>
-                    <p className="double-or" style={{color:"#03a9f4"}}> &nbsp; || &nbsp;</p>
+                    <p className="double-or" style={{ color: "#03a9f4" }}>
+                      {" "}
+                      &nbsp; || &nbsp;
+                    </p>
                     <p>{card.year}</p>
                   </div>
                   <div className="links">
-                    <SocialMedia linkedin={card.linkedin} instagram={card.instagram} />
+                    <SocialMedia
+                      linkedin={card.linkedin}
+                      instagram={card.instagram}
+                    />
                   </div>
                 </div>
               </div>

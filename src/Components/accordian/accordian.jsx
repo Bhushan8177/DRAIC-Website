@@ -2,36 +2,36 @@ import { React, useState } from "react";
 import "./accordian.css";
 
 const data = [
+  // {
+  //   question: "What is DRAIC-DYPCOE?",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+  // },
   {
-    question: "Question 1",
+    question: "Who can join DRAIC?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "Any student of DYPCOE college with an aptitude for learning and applying those skills in the field of robotics and AI can join us, irrespective of the branch or year they are studying in! ",
   },
   {
-    question: "Question 2",
+    question: "How to join DRAIC?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "We as a club conduct recruitment for all the departments annually. By having basic knowledge and skills about the department you want to get in, you can clear the recruitment rounds and join us! Again, it’s not a compulsion to be in a particular branch to get into a department!!",
   },
   {
-    question: "Question 3",
+    question: "What can you expect from DRAIC?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "You’ll learn technical and personal skills, get the experience of working as a team, get freedom and support to explore new projects, and much more!",
   },
   {
-    question: "Question 4",
+    question: "What are our working hours?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+      "DRAIC has flexible working hours usually after college",
   },
-  {
-    question: "Question 5",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
-  },
-  {
-    question: "Question 6",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
-  },
+  // {
+  //   question: "Is there a fee requirement?",
+  //   answer:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aut soluta perferendis! Distinctio eaque voluptates saepe recusandae nisi, illum ullam? Ducimus maiores earum pariatur nesciunt quae, quaerat quidem, laborum minima corrupti, voluptate adipisci repellendus?",
+  // },
 ];
 
 const Accordian = () => {

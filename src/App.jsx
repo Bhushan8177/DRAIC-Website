@@ -32,7 +32,7 @@ const App = () => {
 
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => setLoading(true), 0);
+  setTimeout(() => setLoading(false), 3900);
 
   return (
     <>
@@ -44,7 +44,6 @@ const App = () => {
           <Contact2 show={location.pathname === "/contact"} />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            {/* <Route exact path="/about" element={<About />} /> */}
             <Route exact path="/about" element={<About />} />
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/contact" element={<Contact />} />

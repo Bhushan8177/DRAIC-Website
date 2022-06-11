@@ -73,7 +73,9 @@
 
 .home-teacher-image {
   height: 22rem;
-  border-radius: 20px;
+  width: 18rem;
+  border-radius: 10px;
+  object-fit: cover;
   /* padding-left: 15rem; */
 }
 
@@ -190,7 +192,7 @@
     padding: 10px;
   }
   .home-teacher-image {
-    height: 15rem;
+    height: 20rem;
   }
   .home-teacher-image-container {
     padding-left: 0;

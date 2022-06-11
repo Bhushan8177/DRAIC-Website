@@ -55,18 +55,19 @@ const Contact = () => {
             <div>
               <div className="contact_para">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Harum, repellendus excepturi. Architecto porro rem fuga ipsum
-                  vero earum inventore nemo delectus ducimus est. Harum optio
-                  dolore ea nostrum tempora at?
+                  If you're interested in what we do and wanna join us,or have some queries, feel free to contact us by filling the form below!
                 </p>
               </div>
             </div>
             <div className="contact_joinnow_div">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform" rel="noreferrer" target="_blank">
-              {/* <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform?usp=sf_link" > */}
-              <button className="contact_joinnowbtn">JOIN NOW</button>
-              {/* </NavLink> */}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform"
+                rel="noreferrer"
+                target="_blank"
+              >
+                {/* <NavLink to="https://docs.google.com/forms/d/e/1FAIpQLSehFE3hKyx7Shkl2x72KWDIsheS1TgHENWEueiYNj53h8kuhw/viewform?usp=sf_link" > */}
+                <button className="contact_joinnowbtn">JOIN NOW</button>
+                {/* </NavLink> */}
               </a>
             </div>
           </div>

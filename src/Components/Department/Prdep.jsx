@@ -1,7 +1,7 @@
 import React from "react";
-import Avatar from "./Avatar";
-import SocialMedia from "./Socialmedia";
-import members from "./ProgDepList";
+// import Avatar from "./Avatar";
+// import SocialMedia from "./Socialmedia";
+// import members from "./ProgDepList";
 
 import "./programming-department.css";
 
@@ -17,12 +17,7 @@ const Prdep = () => {
           <div className="mech-department-text-container">
             <h1 className="mech-department-title">PUBLIC RELATIONS</h1>
             <p className="mech-department-description">
-              A random paragraph generator is a tool provided by various
-              websites that provides you as many random paragraphs as you want.
-              Be it for any work purpose of yours, effortlessly. A random
-              paragraph generator is a tool provided by various websites that
-              provides you as many random paragraphs as you want. Be it for any
-              work purpose of yours, effortlessly.
+            We as Public Relations Team Maintain and Manage the vox-pop of the team. We publicize what DRAIC as a team does. We design the outlook of the team. we work with team collaboration and interpersonal skills. We create thoughtful, data-backed pitches, engage with social media, send swag, maintain relevant media lists, and manage all follow-through. we constantly aim to maximize the reach and impact of DRAIC.
             </p>
           </div>
           <div className="mech-department-image-container">
@@ -36,10 +31,10 @@ const Prdep = () => {
             ></img>
           </div>
         </div>
-
+{/* 
         <div className="mech-department-header-container">
           <h1 className="mech-department-moto">
-            OPPORTUNITIES DON’T HAPPEN, YOU CREATE THEM
+            GETTING ATTENTION TO THE RIGHT PLACE..!
           </h1>
           <div className="seperator">
             <div className="depline1"></div>
@@ -64,7 +59,8 @@ const Prdep = () => {
               </div>
             );
           })}
-        </div>
+        
+      </div> */}
       </div>
     </>
   );

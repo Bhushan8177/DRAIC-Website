@@ -21,7 +21,7 @@ const Footer = () => {
                 alt="draicimg"
               />
               <h1>DRAIC DYPCOE</h1>
-              <p>Let's ready to dive into Robotics</p>
+              <p>Let's get ready to dive into Robotics</p>
             </div>
           </Link>
           <div className="footer_links_section">
@@ -81,7 +81,7 @@ const Footer = () => {
                 </li>
                 <li className="footer_link">
                   <NavLink className="footer_link" to="/ElectricalDepartment">
-                    Electrical
+                    Electronics
                   </NavLink>
                 </li>
                 <li className="footer_link">
@@ -114,7 +114,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="footer_location"
             >
-              D. Y. Patil College of Engineering, D. Y. Patil
+              D. Y. Patil College of Engineering, Dr. D. Y. Patil
               <br />
               Educational Complex, Sector 29, Nigdi
               <br />
@@ -135,10 +135,11 @@ const Footer = () => {
                 alt="Linkedin"
               />
             </Link>
-            <Link
+            <a
               className="footer_social_links"
-              to="//www.linkedin.com/company/d-y-patil-robotics-ai-club"
+              href="https://www.instagram.com/draicdypcoe/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 loading="lazy"
@@ -147,11 +148,12 @@ const Footer = () => {
                 src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
                 alt="Instagram"
               />
-            </Link>
-            <Link
+            </a>
+            <a
               className="footer_social_links"
-              to="//www.linkedin.com/company/d-y-patil-robotics-ai-club"
+              href="https://twitter.com/DraicDypcoe"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 loading="lazy"
@@ -160,7 +162,7 @@ const Footer = () => {
                 src="https://img.icons8.com/color/48/000000/twitter-squared.png"
                 alt="Twitter"
               />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="footer_copyrights">
